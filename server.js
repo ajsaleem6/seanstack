@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 
 //nforce setup - change clientId, clientSecret, redirectUri(for not username/password flow) as per your org/app
 var org = nforce.createConnection({
-  clientId: "3MVG9YDQS5WtC11pd5RLlQF.EWna.qSs2Q6ntHxtvWKCsUIfru8mXgnk2JYYg1_Fym9szqcyD5C91kmi87h9r",
-  clientSecret: "2968940936771568707",
+  clientId: "3MVG9n_HvETGhr3D2GT96Ex61tQiZZw8JNUbGfIPSSyjkQDtH5uGYlgwyx1xAjFxDyGPnCK3s6vSHRloEYz71",
+  clientSecret: "072655E40A229BD4FFF1612433FBCDF04DF45D40184D8F3ABC393FECB1D8B0C7",
   redirectUri: "https://seanstack.herokuapp.com/oauth/_callback",
   apiVersion: "v37.0",
   environment: "production",
@@ -38,7 +38,7 @@ function handleError(res, reason, message, code) {
 
 //change username, password+securitytoken as per your org
 app.get("/contacts", function(req, res) {
-  org.authenticate({ username: 'test@sean.org', password: 's3@nstackWPGlG6shuetQopXoeFdqjh4y'}, function(err, oauth){
+  org.authenticate({ username: 'salesdemo@sidtech.com', password: 'qwerty@16Cel800D2w00000DN99f8882w000004qXGejW46YDqXd8OyLAD29gIQpQURXMt8yBefQfMoOeCiGX0kHgpxD0MrqwBgSvBGm9QpcuGaHT0w'}, function(err, oauth){
     if(err) {
       console.log('Error: ' + err.message);
     } else {
