@@ -1,0 +1,19 @@
+---- BEGIN SSH2 PUBLIC KEY ----
+Comment: "ajsaleem6"
+AAAAB3NzaC1yc2EAAAABJQAAAQEAkMQ3ObKMPspZxH13vJRon+KDKQjpniZJ3Fgz
+ulnGT5CNDvVUjh8Cf7Q+EVuhMx0P4NYtAtfouRsnvYh2bwCNyIVySF8zlV/mV1AX
+qMLAq+CJolXZ+UAx6dSxyWinlh6yF5hrM+HtjSMC5ed3WIwtvRZhxrEqnM7mAkf7
+fZZRI1HLSTtsC3upkkluuuwxUoBZv3HryYrQ+5pOn+HeUeanuld2Dg8M6pqpQhT0
+hfh2Mlxl2InPRzg6eXjeMOoWxTk5qhfTLZ1Sz68z/vgRMK/V35r6kpD2KkN0DH2/
+6oMAjwXAoyyrMBub1aUEubVT+4nDSzKcrRLcgXiKxn5buM5z/Q==
+---- END SSH2 PUBLIC KEY ----
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAkMQ3ObKMPspZxH13vJRon+KDKQjpniZJ3FgzulnGT5CNDvVUjh8Cf7Q+EVuhMx0P4NYtAtfouRsnvYh2bwCNyIVySF8zlV/mV1AXqMLAq+CJolXZ+UAx6dSxyWinlh6yF5hrM+HtjSMC5ed3WIwtvRZhxrEqnM7mAkf7fZZRI1HLSTtsC3upkkluuuwxUoBZv3HryYrQ+5pOn+HeUeanuld2Dg8M6pqpQhT0hfh2Mlxl2InPRzg6eXjeMOoWxTk5qhfTLZ1Sz68z/vgRMK/V35r6kpD2KkN0DH2/6oMAjwXAoyyrMBub1aUEubVT+4nDSzKcrRLcgXiKxn5buM5z/Q== ajsaleem6
+1. Create a VM Instance using RHEL server, e2 medium
+2. download puttygen.exe (a RSA and DSA key generation utility) from website, save public, private keys on local machine.
+[there should be no gaps in the ssh keys, ]open
+3. in metadata add ssh keys saved on local machine
+4. download putty.exe (the SSH and Telnet client itself) and check whether we are able to login to that server
+
+In SSH console type sudo -i [it comes to root directory]
